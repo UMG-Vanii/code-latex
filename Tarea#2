@@ -1,0 +1,72 @@
+\documentclass[letterpaper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[left=2.4cm,right=2.4cm,top=2.4cm,bottom=2.4cm]{geometry}
+\usepackage{times}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{hyperref}
+
+% Configuración para subtítulos
+\titleformat{\section}{\bfseries\leftskip=0pt}{\thesection}{1em}{}
+
+% Configuración para que el renglón sea cerrado
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+
+% Título y autor
+\title{\textbf{\large{Buenas Prácticas para el Desarrollo de Aplicaciones Reactivas}}}
+\author{\textit{V. N. Alcantara Mendoza}\\
+\textit{7690-18-1298 Universidad Mariano Gálvez}\\
+\textit{Seminario de Tecnología de Información}\\
+\textit{valcantaram@miumg.edu.gt}}
+\date{}
+
+\begin{document}
+\maketitle
+
+% Resumen
+\textbf{Resumen}\\
+El desarrollo de aplicaciones reactivas se ha convertido en un enfoque clave para crear sistemas modernos, escalables y resilientes. Estas aplicaciones están diseñadas para responder de manera eficiente a eventos, mantener una alta disponibilidad y ofrecer una experiencia fluida al usuario. Las buenas prácticas en este ámbito incluyen el uso de programación reactiva, arquitecturas asincrónicas, patrones de diseño orientados a la resiliencia y herramientas especializadas como ReactiveX y frameworks como Spring WebFlux. Adoptar estas prácticas permite desarrollar software capaz de gestionar altos volúmenes de solicitudes sin comprometer el rendimiento ni la estabilidad del sistema.
+
+% Palabras clave
+\textbf{Palabras clave:} aplicaciones reactivas, programación reactiva, Spring WebFlux, resiliencia, asincronía.
+
+% Desarrollo del Tema
+\section*{Desarrollo del Tema}
+En la actualidad, las aplicaciones deben ser capaces de gestionar grandes cantidades de datos y usuarios simultáneamente. Para lograrlo, el desarrollo de aplicaciones reactivas se presenta como una alternativa eficaz frente a los modelos tradicionales sincrónicos.
+
+\textbf{Programación Reactiva:} Es un paradigma de programación basado en la manipulación de flujos de datos asíncronos. Permite que las aplicaciones reaccionen ante cambios o eventos de forma no bloqueante, lo cual mejora el rendimiento y la eficiencia de los recursos. Herramientas como Project Reactor y ReactiveX son ampliamente utilizadas para implementar este paradigma.
+
+\textbf{Spring WebFlux:} Este framework, parte del ecosistema Spring, permite construir aplicaciones reactivas usando servidores no bloqueantes como Netty. A través del uso de Mono y Flux, ofrece soporte completo para flujos de datos reactivos, facilitando el desarrollo de controladores y servicios que respondan eficientemente a múltiples peticiones concurrentes.
+
+\textbf{Resiliencia y Tolerancia a Fallos:} Una aplicación reactiva debe ser resiliente. Esto implica que debe seguir funcionando aún cuando ocurran fallos parciales. Buenas prácticas incluyen el uso de circuit breakers (como Resilience4j), la implementación de reintentos automáticos, manejo proactivo de errores y aislamiento de servicios.
+
+\textbf{Escalabilidad y Elasticidad:} Las aplicaciones reactivas deben ser capaces de escalar horizontalmente, adaptándose dinámicamente a la carga del sistema. El uso de arquitecturas basadas en eventos y mensajes (como Kafka o RabbitMQ) facilita la construcción de sistemas desacoplados y altamente escalables.
+
+\textbf{Pruebas y Monitoreo Reactivo:} Para garantizar el correcto funcionamiento de estas aplicaciones, se recomienda utilizar pruebas asíncronas, así como herramientas de monitoreo específicas que permitan observar el comportamiento de los flujos y detectar cuellos de botella en tiempo real.
+
+\section*{Observaciones y Comentarios}
+El desarrollo de aplicaciones reactivas requiere un cambio de mentalidad con respecto a los modelos tradicionales. Es importante que los equipos comprendan los principios de la programación reactiva y adopten herramientas que estén alineadas con estos conceptos. Aunque la curva de aprendizaje puede ser alta, los beneficios en términos de rendimiento, escalabilidad y experiencia de usuario son significativos.
+
+\section*{Conclusiones}
+1. La programación reactiva permite construir aplicaciones más eficientes, resilientes y escalables.\\
+2. Spring WebFlux es una herramienta robusta para el desarrollo de servicios no bloqueantes en el ecosistema Java.\\
+3. La resiliencia es una característica esencial en las aplicaciones reactivas modernas.\\
+4. El monitoreo y las pruebas asíncronas son fundamentales para mantener la calidad del software.
+
+\section*{Recomendaciones}
+1. Capacitar a los equipos en el uso de paradigmas y herramientas reactivas como Project Reactor o ReactiveX.\\
+2. Adoptar frameworks como Spring WebFlux para desarrollar servicios web no bloqueantes.\\
+3. Incorporar patrones de resiliencia como circuit breakers y timeouts en los servicios.\\
+4. Implementar sistemas de monitoreo que permitan analizar el comportamiento reactivo en producción.
+
+\section{Bibliografía}
+\item Stoyanovich, S. (2021). \textit{Reactive Programming with Spring WebFlux}. Packt Publishing.
+\item Meijer, E. (2011). \textit{Your Mouse is a Database}. ACM Queue.
+\item Lightbend Inc. (n.d.). \textit{The Reactive Manifesto}. Retrieved from \url{https://www.reactivemanifesto.org/}
+\item Resilience4j. (n.d.). \text
+
+\section*{Repositorio}
+\url{https://github.com/Vanii-UMG/Seminario-de-Tecnologias.git}
+
+\end{document}
