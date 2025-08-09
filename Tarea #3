@@ -1,0 +1,80 @@
+\documentclass[letterpaper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[left=2.4cm,right=2.4cm,top=2.4cm,bottom=2.4cm]{geometry}
+\usepackage{times}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{hyperref}
+
+% Configuración para subtítulos
+\titleformat{\section}{\bfseries\leftskip=0pt}{\thesection}{1em}{}
+
+% Configuración para que el renglón sea cerrado
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+
+% Título y autor
+\title{\textbf{\large{¿Cómo elegir la arquitectura de la aplicación según su tipo?}}}
+\author{\textit{V. N. Alcantara Mendoza}\\
+\textit{7690-18-1298 Universidad Mariano Gálvez}\\
+\textit{Seminario de Tecnología de Información}\\
+\textit{valcantaram@miumg.edu.gt}}
+\date{}
+
+\begin{document}
+\maketitle
+
+% Resumen
+\textbf{Resumen}\\
+La elección adecuada de la arquitectura de software es vital para el éxito de cualquier aplicación. Este documento presenta los principales tipos de arquitecturas, sus ventajas y desventajas, así como criterios clave para seleccionar la mejor opción según el tipo y objetivos de la aplicación. Se enfatiza la importancia de considerar factores técnicos, organizacionales y de negocio para tomar decisiones acertadas que garanticen rendimiento, escalabilidad y mantenibilidad.
+
+% Palabras clave
+\textbf{Palabras clave:} arquitectura de software, diseño de aplicaciones, patrones arquitectónicos, microservicios, monolito, escalabilidad, SOA.
+
+% Desarrollo del Tema
+\section*{Desarrollo del Tema}
+La arquitectura define la estructura general y las interacciones entre los componentes de una aplicación, impactando directamente su desempeño y facilidad de evolución.
+
+\textbf{Arquitectura Monolítica:}  
+Se caracteriza por un único código base y despliegue centralizado. Es adecuada para aplicaciones pequeñas o con requisitos simples, permitiendo un desarrollo rápido y sencillo. Sin embargo, puede volverse rígida y difícil de escalar cuando la aplicación crece o se vuelve más compleja.
+
+\textbf{Microservicios:}  
+Dividen la aplicación en servicios independientes que se despliegan y escalan por separado. Facilitan el desarrollo ágil y la resiliencia, permitiendo a diferentes equipos trabajar en paralelo. La comunicación entre servicios generalmente se realiza vía APIs REST o mensajería, lo que añade cierta complejidad a nivel de infraestructura y monitoreo.
+
+\textbf{Arquitecturas Basadas en Eventos:}  
+Ideales para sistemas que requieren procesamiento en tiempo real y alta capacidad de respuesta, como aplicaciones financieras, de IoT o comercio electrónico. Utilizan sistemas de mensajería y procesamiento asíncrono para desacoplar componentes y mejorar la escalabilidad.
+
+\textbf{Arquitectura Orientada a Servicios (SOA):}  
+Se enfoca en la reutilización de servicios para integrar aplicaciones heterogéneas dentro de una organización. Aunque similar a microservicios, SOA suele tener una gobernanza más centralizada y menos granularidad en los servicios.
+
+\textbf{Criterios para elegir arquitectura:}
+\begin{itemize}
+    \item \textit{Requisitos de negocio y funcionales:} complejidad, volumen de usuarios, necesidades de escalabilidad.
+    \item \textit{Experiencia y tamaño del equipo:} capacidades para manejar arquitecturas distribuidas.
+    \item \textit{Tiempo y presupuesto disponibles:} impacto en la complejidad del desarrollo y despliegue.
+    \item \textit{Tecnologías y herramientas compatibles:} soporte para el desarrollo, pruebas y monitoreo.
+\end{itemize}
+
+Es fundamental alinear la arquitectura con la estrategia del proyecto para evitar problemas futuros y asegurar una evolución sostenible.
+
+\section*{Observaciones y Comentarios}
+La elección de la arquitectura no debe considerarse un proceso aislado; implica coordinación entre áreas técnicas, de negocio y operaciones. Una buena arquitectura debe facilitar la adaptación a cambios, evitar la acumulación de deuda técnica y apoyar la entrega continua.
+
+\section*{Conclusiones}
+1. La arquitectura influye directamente en la calidad, escalabilidad y mantenimiento de la aplicación.\\
+2. Monolitos funcionan bien para proyectos iniciales o de baja complejidad.\\
+3. Microservicios y arquitecturas basadas en eventos son recomendadas para aplicaciones que demandan alta escalabilidad y resiliencia.\\
+4. La selección debe balancear factores técnicos, humanos y organizativos para lograr el éxito del proyecto.
+
+\section*{Recomendaciones}
+1. Analizar a fondo los requisitos y contexto antes de decidir la arquitectura.\\
+2. Capacitar al equipo en los patrones y tecnologías elegidas.\\
+3. Planificar la evolución arquitectónica para responder a futuras necesidades.\\
+4. Implementar prácticas de documentación, pruebas y monitoreo para mantener calidad y control.
+
+\section{Bibliografía}
+
+\section*{Repositorio}
+\url{https://github.com/UMG-Vanii/code-latex}
+
+\end{document}
