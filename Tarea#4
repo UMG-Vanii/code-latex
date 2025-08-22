@@ -1,0 +1,96 @@
+\documentclass[letterpaper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[left=2.4cm,right=2.4cm,top=2.4cm,bottom=2.4cm]{geometry}
+\usepackage{times}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+% Configuración para subtítulos
+\titleformat{\section}{\bfseries\leftskip=0pt}{\thesection}{1em}{}
+
+% Configuración para que el renglón sea cerrado
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+
+% Título y autor
+% Título y autor
+\title{\textbf{\large{Gestión de Riesgos Cibernéticos: Enfoques Prácticos para la Seguridad Institucional}}}
+\author{\textit{V. N. Alcantara Mendoza}\\
+\textit{7690-18-1298 Universidad Mariano Gálvez}\\
+\textit{Seminario de Tecnología de Información}\\
+\textit{valcantaram@miumg.edu.gt}}
+\date{}
+
+\begin{document}
+\maketitle
+
+% Resumen
+\textbf{Resumen}\
+Este documento analiza los conceptos fundamentales de ciberseguridad, seguridad informática y seguridad de la información, abordando sus diferencias y aplicaciones prácticas. Se examinan las vulnerabilidades comunes y se proponen estrategias para fortalecer la postura de seguridad. Se presentan medidas técnicas, organizativas y de concienciación para proteger los activos informáticos y la información sensible contra amenazas internas y externas, con especial énfasis en la protección de instituciones educativas.
+
+% Palabras clave
+\textbf{Palabras clave:} ciberseguridad, seguridad informática, seguridad de la información, phishing, ISO 27001, gestión de incidentes.
+
+% Desarrollo del Tema
+\section*{Desarrollo del Tema}
+La \textbf{seguridad de la información} se refiere a la protección de la información y los sistemas de información contra accesos no autorizados, modificación o destrucción, preservando sus tres atributos fundamentales: confidencialidad, integridad y disponibilidad (CID). La \textbf{seguridad informática} se enfoca específicamente en la protección de la infraestructura computacional, mientras que la \textbf{ciberseguridad} amplía este concepto al ámbito del ciberespacio, incluyendo redes, infraestructuras críticas y entornos digitales.
+
+Un aspecto crítico en la protección de los sistemas es la formación continua del personal para reconocer intentos de suplantación de identidad. La implementación de programas de concienciación que incluyan simulacros periódicos y capacitación en identificación de correos sospechosos resulta fundamental para reducir riesgos. Estos programas deben enseñar a verificar remitentes, examinar enlaces antes de hacer clic y reportar incidentes de manera inmediata.
+
+La protección de datos sensibles, como historiales médicos o académicos, requiere implementar controles de acceso estrictos basados en el principio de mínimo privilegio. El cifrado de información tanto en reposo como en tránsito, junto con sistemas de clasificación de datos, garantiza que solo personal autorizado pueda acceder a información confidencial. La segmentación de redes y sistemas según la criticidad de la información añade una capa adicional de protección.
+
+Para prevenir modificaciones no autorizadas en los registros, es esencial implementar mecanismos de verificación de integridad como firmas digitales, hashes criptográficos y sistemas de versionado. Los registros de auditoría detallados que capturen todas las actividades de acceso y modificación permiten detectar anomalías y realizar investigaciones forenses cuando sea necesario.
+
+La falta de actualizaciones de seguridad representa una vulnerabilidad crítica explotable por atacantes. Establecer procesos formales de gestión de parches que incluyan inventario de activos, evaluación de criticidad, testing en entornos controlados y despliegue prioritario según nivel de riesgo mitiga significativamente estas vulnerabilidades. En entornos educativos, este proceso debe coordinarse con los periodos académicos para minimizar disruptciones.
+
+La implementación de estrategias de respaldo robustas sigue la regla 3-2-1 (tres copias, en dos medios diferentes, una fuera del sitio) y permite la recuperación rápida de información comprometida. Los planes de recuperación ante desastres deben probarse regularmente para garantizar su efectividad en situaciones de crisis.
+
+La gestión adecuada de credenciales de acceso mediante políticas de complejidad de contraseñas, autenticación multifactor y herramientas de gestión centralizada previene accesos no autorizados. La implementación de soluciones Single Sign-On (SSO) reduce la tentación de reutilizar contraseñas en múltiples sistemas.
+
+Los sistemas de monitorización continua como SIEM (Security Information and Event Management), IDS/IPS (Sistemas de Detección/Prevención de Intrusiones) y análisis de comportamiento de usuarios permiten identificar actividades sospechosas en tiempo real. La implementación de estos sistemas proporciona capacidad de respuesta proactiva ante incidentes de seguridad.
+
+La adopción de frameworks reconocidos como ISO 27001 proporciona un enfoque sistemático para la gestión de seguridad de la información. Este tipo de certificación ayuda a establecer procesos estructurados para identificar, evaluar y tratar riesgos de seguridad, además de demostrar el compromiso institucional con la protección de la información.
+
+La evaluación constante del nivel de madurez en ciberseguridad mediante indicadores como tiempo medio de detección y respuesta a incidentes, cobertura de controles técnicos y cumplimiento de políticas permite identificar áreas de mejora y priorizar inversiones en seguridad.
+
+\section*{Observaciones y Comentarios}
+La seguridad de la información no es solo un problema técnico, sino principalmente humano y organizativo. La efectividad de los controles técnicos depende en gran medida de la concienciación del personal y del compromiso de la alta dirección. Un enfoque por capas (defensa en profundidad) que combine medidas preventivas, detectivas y correctivas es esencial para una protección efectiva.
+
+\section*{Conclusiones}
+
+    La ciberseguridad, seguridad informática y seguridad de la información son conceptos complementarios pero distintos en su alcance.\
+
+    La protección de los atributos CID (Confidencialidad, Integridad, Disponibilidad) requiere un enfoque holístico que combine tecnología, procesos y personas.\
+
+    La concienciación del usuario es la primera línea de defensa contra ataques de ingeniería social.\
+
+    La implementación de frameworks reconocidos como ISO 27001 proporciona un camino estructurado para mejorar la postura de seguridad organizacional.
+
+\section*{Recomendaciones}
+
+    Implementar programas continuos de concienciación en seguridad para todo el personal.\
+
+    Establecer políticas claras de control de acceso, gestión de contraseñas y autenticación multifactor.\
+
+    Desarrollar y probar regularmente planes de respaldo, recuperación y respuesta a incidentes.\
+
+    Adoptar un framework de gestión de seguridad de la información para un enfoque sistemático.\
+
+    Implementar herramientas de monitoreo y detección proactiva de amenazas.
+
+\section*{Bibliografía}
+\begin{enumerate}
+\item ISO/IEC 27001:2022. Information security, cybersecurity and privacy protection.
+\item ISACA (2020). CSX Cybersecurity Fundamentals Study Guide.
+\item Whitman, M. E., Mattord, H. J. (2021). Principles of Information Security. Cengage Learning.
+\item NIST SP 800-53. Security and Privacy Controls for Information Systems and Organizations.
+\item SANS Institute. (2023). Security Awareness Planning Kit.
+\end{enumerate}
+
+\section*{Repositorio}
+\url{https://github.com/UMG-Vanii/code-latex}
+
+\end{document}
