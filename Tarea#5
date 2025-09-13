@@ -1,0 +1,90 @@
+\documentclass[letterpaper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[left=2.4cm,right=2.4cm,top=2.4cm,bottom=2.4cm]{geometry}
+\usepackage{times}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+% Configuración para subtítulos
+\titleformat{\section}{\bfseries\leftskip=0pt}{\thesection}{1em}{}
+
+% Configuración para que el renglón sea cerrado
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+
+% Título y autor
+\title{\textbf{\large{Impulsadores del Cambio Digital: Factores Clave para la Transformación Organizacional}}}
+\author{\textit{V. N. Alcantara Mendoza}\\
+\textit{7690-18-1298 Universidad Mariano Gálvez}\\
+\textit{Seminario de Tecnología de Información}\\
+\textit{valcantaram@miumg.edu.gt}}
+\date{}
+
+\begin{document}
+\maketitle
+
+% Resumen
+\textbf{Resumen}\
+Este documento aborda los principales impulsadores del cambio digital que están transformando a las organizaciones en el siglo XXI. Se destacan factores tecnológicos, sociales, económicos y culturales que impulsan la adopción de nuevas herramientas digitales y modelos de negocio. Además, se analizan los retos y beneficios de la digitalización, con énfasis en su impacto dentro del ámbito educativo y empresarial.
+
+% Palabras clave
+\textbf{Palabras clave:} transformación digital, innovación tecnológica, automatización, cultura digital, competitividad.
+
+% Desarrollo del Tema
+\section*{Desarrollo del Tema}
+El \textbf{cambio digital} se ha convertido en un proceso inevitable para las organizaciones que buscan mantener su competitividad y relevancia en mercados globalizados. Este cambio está impulsado por una combinación de factores internos y externos que configuran un nuevo panorama de oportunidades y desafíos.
+
+Entre los principales \textbf{impulsadores del cambio digital} destacan:
+
+\begin{itemize}
+    \item \textbf{Avances tecnológicos:} La evolución acelerada de tecnologías como la inteligencia artificial, el cómputo en la nube, la analítica de datos y el internet de las cosas (IoT) permite a las organizaciones optimizar procesos y generar nuevos modelos de negocio.
+    \item \textbf{Expectativas del cliente:} Los consumidores demandan experiencias digitales personalizadas, rápidas y accesibles. Esta presión obliga a las organizaciones a innovar en sus servicios y canales de atención.
+    \item \textbf{Competencia global:} La digitalización elimina barreras geográficas, incrementando la competencia entre empresas locales e internacionales. Aquellas que no se adapten corren el riesgo de quedar rezagadas.
+    \item \textbf{Cambio cultural:} La adopción de una cultura digital en las organizaciones, donde se fomente la innovación, la agilidad y el aprendizaje continuo, es esencial para sostener la transformación.
+    \item \textbf{Regulación y normativas:} La adaptación a leyes de protección de datos, ciberseguridad y comercio digital impulsa a las organizaciones a modernizar sus sistemas y prácticas.
+    \item \textbf{Impacto de la pandemia:} Eventos globales como la crisis sanitaria aceleraron la digitalización de procesos educativos, laborales y comerciales, consolidando el teletrabajo y el aprendizaje en línea.
+\end{itemize}
+
+Estos impulsadores no actúan de manera aislada, sino que generan un ecosistema dinámico que obliga a las instituciones a replantear sus estrategias y procesos. El éxito en la transformación digital depende de la capacidad de integrar la tecnología con una visión estratégica que priorice tanto la eficiencia operativa como la experiencia del usuario.
+
+\section*{Observaciones y Comentarios}
+El cambio digital no debe concebirse únicamente como la implementación de herramientas tecnológicas, sino como una transformación integral que involucra personas, procesos y modelos de negocio. La resistencia al cambio suele ser una de las principales barreras, por lo que el liderazgo y la gestión del talento resultan determinantes para garantizar la adaptación exitosa.
+
+\section*{Conclusiones}
+
+    Los impulsadores del cambio digital responden a factores tecnológicos, sociales y económicos que convergen en un entorno altamente competitivo.\
+
+    La transformación digital requiere un enfoque integral que combine innovación, cultura organizacional y estrategias de adaptación al cliente.\
+
+    El papel del liderazgo y la gestión del talento es esencial para superar la resistencia al cambio y fomentar la adopción de nuevas prácticas.\
+
+    Las organizaciones que adopten proactivamente el cambio digital obtendrán ventajas competitivas sostenibles en sus sectores.
+
+\section*{Recomendaciones}
+
+    Fomentar una cultura digital que promueva la innovación y el aprendizaje continuo.\
+
+    Invertir en tecnologías emergentes que apoyen la automatización y la analítica de datos.\
+
+    Diseñar estrategias centradas en el cliente para mejorar la experiencia digital.\
+
+    Establecer planes de capacitación para desarrollar competencias digitales en el personal.\
+
+    Alinear la transformación digital con las normativas de seguridad y protección de datos.
+
+\section*{Bibliografía}
+\begin{enumerate}
+\item Westerman, G., Bonnet, D., \& McAfee, A. (2021). Leading Digital: Turning Technology into Business Transformation. Harvard Business Review Press.
+\item Rogers, D. (2023). The Digital Transformation Playbook. Columbia Business School Publishing.
+\item Deloitte Insights. (2022). Digital transformation 2022: Key trends and drivers.
+\item World Economic Forum. (2023). Shaping the Future of Digital Economy and New Value Creation.
+\item Gartner. (2021). Top Strategic Technology Trends.
+\end{enumerate}
+
+\section*{Repositorio}
+\url{https://github.com/UMG-Vanii/code-latex}
+
+\end{document}
