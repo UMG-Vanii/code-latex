@@ -1,0 +1,96 @@
+\documentclass[letterpaper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[left=2.4cm,right=2.4cm,top=2.4cm,bottom=2.4cm]{geometry}
+\usepackage{times}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+% Configuración para subtítulos
+\titleformat{\section}{\bfseries\leftskip=0pt}{\thesection}{1em}{}
+
+% Configuración para que el renglón sea cerrado
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+
+% Título y autor
+\title{\textbf{\large{Evaluación Estratégica de Proyectos}}}
+\author{\textit{V. N. Alcantara Mendoza}\\
+\textit{7690-18-1298 Universidad Mariano Gálvez}\\
+\textit{Seminario de Tecnología de Información}\\
+\textit{valcantaram@miumg.edu.gt}}
+\date{}
+
+\begin{document}
+\maketitle
+
+% Resumen
+\textbf{Resumen}\
+Este documento desarrolla los principales criterios que permiten evaluar la viabilidad y sostenibilidad de un proyecto. Se analizan el retorno de inversión (ROI), la relación costo-beneficio, la factibilidad y los mecanismos para garantizar la calidad en el proceso de gestión. Cada uno de estos elementos resulta esencial para la toma de decisiones estratégicas y para asegurar que los resultados del proyecto cumplan con los objetivos planteados.
+
+% Palabras clave
+\textbf{Palabras clave:} ROI, costo-beneficio, factibilidad, calidad, gestión de proyectos.
+
+% Desarrollo del Tema
+\section*{Desarrollo del Tema}
+
+\subsection*{Retorno de Inversión (ROI)}
+El \textbf{ROI} es un indicador financiero que permite medir la rentabilidad de un proyecto en relación con los recursos invertidos. Se calcula comparando las ganancias generadas frente al costo total de la inversión. Un ROI positivo refleja la efectividad del proyecto en generar valor, mientras que un ROI negativo puede indicar riesgos financieros o deficiencias en la planificación.
+
+\subsection*{Relación Costo-Beneficio}
+El análisis de \textbf{costo-beneficio} evalúa si los beneficios tangibles e intangibles superan a los costos incurridos. Esta herramienta permite priorizar proyectos, justificar inversiones y optimizar recursos. No solo considera elementos económicos, sino también impactos sociales, tecnológicos y ambientales que pueden influir en la sostenibilidad del proyecto.
+
+\subsection*{Factibilidad del Proyecto}
+La \textbf{factibilidad} abarca un conjunto de estudios que determinan la viabilidad de un proyecto desde distintas perspectivas:
+\begin{itemize}
+    \item \textbf{Técnica:} Analiza si los recursos, herramientas y conocimientos disponibles permiten desarrollar el proyecto.
+    \item \textbf{Económica:} Evalúa si los costos y beneficios aseguran rentabilidad en el tiempo.
+    \item \textbf{Operativa:} Revisa si la organización tiene la capacidad de implementar y sostener el proyecto.
+    \item \textbf{Legal:} Considera el cumplimiento de normativas, regulaciones y políticas.
+\end{itemize}
+
+\subsection*{Garantía de la Calidad}
+La \textbf{calidad} en los proyectos no se limita al producto final, sino también a los procesos que aseguran su cumplimiento. Para garantizar la calidad es necesario implementar metodologías de control, auditorías, estándares internacionales (como ISO 9001) y procesos de mejora continua. La calidad asegura que los resultados del proyecto se alineen con las expectativas del cliente y los objetivos organizacionales.
+
+\section*{Observaciones y Comentarios}
+Cada uno de estos criterios no debe analizarse de manera aislada, sino como parte de un marco integral de evaluación. El éxito de un proyecto depende tanto de la rentabilidad y factibilidad como de la capacidad de garantizar procesos de calidad que generen confianza y sostenibilidad.
+
+\section*{Conclusiones}
+
+    El ROI permite medir la rentabilidad del proyecto frente a la inversión realizada.\
+    
+    El análisis costo-beneficio ofrece una visión equilibrada de los recursos y los beneficios esperados.\
+    
+    La factibilidad asegura la viabilidad técnica, económica, operativa y legal del proyecto.\
+    
+    La gestión de calidad garantiza el cumplimiento de estándares y la satisfacción de los interesados.\
+    
+    Una evaluación integral de proyectos fortalece la toma de decisiones y minimiza riesgos estratégicos.
+
+\section*{Recomendaciones}
+
+    Establecer indicadores financieros y de gestión claros desde la fase inicial del proyecto.\
+    
+    Realizar un análisis de costo-beneficio que incluya beneficios tangibles e intangibles.\
+    
+    Implementar estudios de factibilidad multidimensionales antes de la ejecución.\
+    
+    Adoptar metodologías de control de calidad basadas en estándares internacionales.\
+    
+    Documentar y evaluar cada etapa del proyecto para fomentar la mejora continua.
+
+\section*{Bibliografía}
+\begin{enumerate}
+\item Kerzner, H. (2021). Project Management: A Systems Approach to Planning, Scheduling, and Controlling. Wiley.
+\item PMI. (2023). A Guide to the Project Management Body of Knowledge (PMBOK® Guide). Project Management Institute.
+\item Schwalbe, K. (2022). Information Technology Project Management. Cengage Learning.
+\item ISO. (2022). ISO 9001:2022 Quality Management Systems. International Organization for Standardization.
+\item Deloitte Insights. (2021). The ROI of Project Management in Digital Transformation.
+\end{enumerate}
+
+\section*{Repositorio}
+\url{https://github.com/UMG-Vanii/code-latex}
+
+\end{document}
